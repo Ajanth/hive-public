@@ -3,8 +3,8 @@
     <channel>
         <title>Hive</title>
         <item>
-            <title>4.4</title>
-            <pubDate>Tue, 08 Sep 2026 14:39:21 +0200</pubDate>
+            <title>4.5</title>
+            <pubDate>Sat, 12 Sep 2026 16:20:22 +0200</pubDate>
             <description><![CDATA[
 <style>
 .rn { font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, sans-serif; font-size: 13px; line-height: 1.55; color: #1d1d1f; -webkit-font-smoothing: antialiased; padding: 2px; }
@@ -27,32 +27,26 @@
 }
 </style>
 <div class="rn">
-<h2>What&#x27;s New in 4.4</h2>
+<h2>What&#x27;s New in 4.5</h2>
 <h3>Features</h3>
 <ul>
-<li>Fix ui issue.</li>
-<li>Resolve session workspace context.</li>
-<li>Ship release-managed AI workflow defaults.</li>
-<li>Preview linked worktree issues.</li>
-<li>Open forked chats automatically.</li>
-<li>Create Linear issues from notes.</li>
+<li>Fork saved assistant responses by source message id.</li>
 </ul>
 <h3>Bug Fixes</h3>
 <ul>
-<li>Declare macOS app bundle metadata.</li>
-<li>Preserve newer terminal writer reservations.</li>
-<li>Preserve live server during terminal handoff.</li>
-<li>Address AI configuration review findings.</li>
-<li>Enforce release-managed AI configuration contracts.</li>
-<li>Keep toolbar actions grouped.</li>
+<li>Bind fresh session launches to their terminal.</li>
+<li>Re-arm OpenCode watcher after root creation.</li>
+<li>Match website updater convention.</li>
+<li>Update landing manifest from release workflow.</li>
+<li>Publish landing download manifest.</li>
 </ul>
-<p class="more">Full release notes: <a href="https://github.com/Ajanth/hive-public/releases/tag/v4.4">https://github.com/Ajanth/hive-public/releases/tag/v4.4</a></p>
+<p class="more">Full release notes: <a href="https://github.com/Ajanth/hive-public/releases/tag/v4.5">https://github.com/Ajanth/hive-public/releases/tag/v4.5</a></p>
 </div>
             ]]></description>
-            <sparkle:version>58</sparkle:version>
-            <sparkle:shortVersionString>4.4</sparkle:shortVersionString>
+            <sparkle:version>59</sparkle:version>
+            <sparkle:shortVersionString>4.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/Ajanth/hive-public/releases/download/v4.4/Hive-4.4.dmg" length="24186945" type="application/octet-stream" sparkle:edSignature="ovtXvOQD4W1VmYbpCafWbr6mhm3x4mqjtCch65Fy+Kyh1oUQmq339crw2bxY2MDB163GiE+62ZbajfaevIm3Cw=="/>
+            <enclosure url="https://github.com/Ajanth/hive-public/releases/download/v4.5/Hive-4.5.dmg" length="24258350" type="application/octet-stream" sparkle:edSignature="h8WqqLQjDNkMrZHRjibw5YS9RTxGJTsP11w0iIneAnqgkS2+YuVjOtK5Yc4efQ+I8uL6qaocSn763PQHIswkBg=="/>
         </item>
     </channel>
 </rss>
