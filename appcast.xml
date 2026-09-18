@@ -3,8 +3,8 @@
     <channel>
         <title>Hive</title>
         <item>
-            <title>4.5</title>
-            <pubDate>Sat, 12 Sep 2026 16:20:22 +0200</pubDate>
+            <title>4.6</title>
+            <pubDate>Fri, 18 Sep 2026 13:48:49 +0200</pubDate>
             <description><![CDATA[
 <style>
 .rn { font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, sans-serif; font-size: 13px; line-height: 1.55; color: #1d1d1f; -webkit-font-smoothing: antialiased; padding: 2px; }
@@ -27,26 +27,37 @@
 }
 </style>
 <div class="rn">
-<h2>What&#x27;s New in 4.5</h2>
+<h2>What&#x27;s New in 4.6</h2>
 <h3>Features</h3>
 <ul>
-<li>Fork saved assistant responses by source message id.</li>
+<li>Create, edit, and delete board task cards.</li>
+<li>Type board cards as a session/task union.</li>
+<li>Expose board task cards over the WebUI bridge.</li>
+<li>Store task cards alongside session cards.</li>
+<li>Add expanded transcript terminal docking.</li>
+<li>Support nested OpenCode model IDs end to end.</li>
+</ul>
+<h3>Improvements</h3>
+<ul>
+<li>Virtualize live chat transcript.</li>
+<li>Keep composer typing and sidebar drags off the transcript render path.</li>
 </ul>
 <h3>Bug Fixes</h3>
 <ul>
-<li>Bind fresh session launches to their terminal.</li>
-<li>Re-arm OpenCode watcher after root creation.</li>
-<li>Match website updater convention.</li>
-<li>Update landing manifest from release workflow.</li>
-<li>Publish landing download manifest.</li>
+<li>Preserve cancellation during environment probing.</li>
+<li>Bound environment probing and cancel stale launches.</li>
+<li>Treat a durable task save as saved and queue task writes behind the lock.</li>
+<li>Narrow search context after task-card rebase.</li>
+<li>Keep restored task timestamps and publish the gate&#x27;s blocked state.</li>
+<li>Surface recovered delete failures and cover the mutation gate.</li>
 </ul>
-<p class="more">Full release notes: <a href="https://github.com/Ajanth/hive-public/releases/tag/v4.5">https://github.com/Ajanth/hive-public/releases/tag/v4.5</a></p>
+<p class="more">Full release notes: <a href="https://github.com/Ajanth/hive-public/releases/tag/v4.6">https://github.com/Ajanth/hive-public/releases/tag/v4.6</a></p>
 </div>
             ]]></description>
-            <sparkle:version>59</sparkle:version>
-            <sparkle:shortVersionString>4.5</sparkle:shortVersionString>
+            <sparkle:version>60</sparkle:version>
+            <sparkle:shortVersionString>4.6</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/Ajanth/hive-public/releases/download/v4.5/Hive-4.5.dmg" length="24258350" type="application/octet-stream" sparkle:edSignature="h8WqqLQjDNkMrZHRjibw5YS9RTxGJTsP11w0iIneAnqgkS2+YuVjOtK5Yc4efQ+I8uL6qaocSn763PQHIswkBg=="/>
+            <enclosure url="https://github.com/Ajanth/hive-public/releases/download/v4.6/Hive-4.6.dmg" length="24618208" type="application/octet-stream" sparkle:edSignature="6j4ggwPeIBjfQ6xSkub9oGdgwskz7mLcS+RABstlgOE87o4CmzZj04Kv8lxAnEIYKoiN2jmUD30XDBzXNd3gAA=="/>
         </item>
     </channel>
 </rss>
