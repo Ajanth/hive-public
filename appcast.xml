@@ -3,8 +3,8 @@
     <channel>
         <title>Hive</title>
         <item>
-            <title>4.7</title>
-            <pubDate>Thu, 01 Oct 2026 06:40:18 +0200</pubDate>
+            <title>4.8</title>
+            <pubDate>Mon, 26 Oct 2026 17:29:45 +0100</pubDate>
             <description><![CDATA[
 <style>
 .rn { font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, sans-serif; font-size: 13px; line-height: 1.55; color: #1d1d1f; -webkit-font-smoothing: antialiased; padding: 2px; }
@@ -27,31 +27,32 @@
 }
 </style>
 <div class="rn">
-<h2>What&#x27;s New in 4.7</h2>
+<h2>What&#x27;s New in 4.8</h2>
 <h3>Features</h3>
 <ul>
-<li>Notify for tracked session activity.</li>
-<li>Add a recent worktree switcher to the toolbar.</li>
-<li>Order worktrees by latest activity.</li>
-<li>Refresh task note dialog.</li>
-<li>Open board sessions in the built-in terminal.</li>
+<li>Show needs-input badges in the sidebar and board.</li>
+<li>Expose reliable pending input state.</li>
+<li>Connect the reminders destination and navigation.</li>
+<li>Handle fired reminders across both owner types.</li>
+<li>Compose and display grouped reminders.</li>
+<li>Add editable reminder cards and precise times.</li>
 </ul>
 <h3>Bug Fixes</h3>
 <ul>
-<li>Keep a processing card&#x27;s ring out of the column scroll width.</li>
-<li>Read the board transcript dialog at its own type scale.</li>
-<li>Reconcile missing worktrees and aborted turns.</li>
-<li>Inherit the composer agent and model from fork history.</li>
-<li>Offer task-note creation only from the Now column.</li>
-<li>Disable Sparkle in debug builds.</li>
+<li>Preserve notarization errors before release QA.</li>
+<li>Share initial status baselines before recovery.</li>
+<li>Submit OpenCode question answers with Enter.</li>
+<li>Use the app highlight for needs-input badges.</li>
+<li>Pad and soften needs-input badges.</li>
+<li>Keep needs-input badges on the title row.</li>
 </ul>
-<p class="more">Full release notes: <a href="https://github.com/Ajanth/hive-public/releases/tag/v4.7">https://github.com/Ajanth/hive-public/releases/tag/v4.7</a></p>
+<p class="more">Full release notes: <a href="https://github.com/Ajanth/hive-public/releases/tag/v4.8">https://github.com/Ajanth/hive-public/releases/tag/v4.8</a></p>
 </div>
             ]]></description>
-            <sparkle:version>61</sparkle:version>
-            <sparkle:shortVersionString>4.7</sparkle:shortVersionString>
+            <sparkle:version>62</sparkle:version>
+            <sparkle:shortVersionString>4.8</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/Ajanth/hive-public/releases/download/v4.7/Hive-4.7.dmg" length="24807224" type="application/octet-stream" sparkle:edSignature="3y2Q4RQbZ5CabeadtYZbipCypql5RauVyimg4Ol2tCuiZQMVbXtQFXl3MukvJtQbG3qzNvbgU3yrOBQpTBcYDQ=="/>
+            <enclosure url="https://github.com/Ajanth/hive-public/releases/download/v4.8/Hive-4.8.dmg" length="25270872" type="application/octet-stream" sparkle:edSignature="MVwzynOZTOKf6MNXY/gq88sQblYkOEjz5M9KCDAK8IvUcQsMVYkfY/boVkgoAMsrs9K/dMJhZtlzw7w0hnbqCw=="/>
         </item>
     </channel>
 </rss>
