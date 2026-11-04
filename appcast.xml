@@ -3,8 +3,8 @@
     <channel>
         <title>Hive</title>
         <item>
-            <title>4.9</title>
-            <pubDate>Tue, 03 Nov 2026 03:42:37 +0100</pubDate>
+            <title>4.9.1</title>
+            <pubDate>Wed, 04 Nov 2026 01:40:15 +0100</pubDate>
             <description><![CDATA[
 <style>
 .rn { font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, sans-serif; font-size: 13px; line-height: 1.55; color: #1d1d1f; -webkit-font-smoothing: antialiased; padding: 2px; }
@@ -27,48 +27,23 @@
 }
 </style>
 <div class="rn">
-<h2>What&#x27;s New in 4.9</h2>
-<h3 class="hl">Highlights</h3>
-<ul class="highlights">
-<li><strong>DeepSeek workflows</strong> — Choose DeepSeek models for AI workflows.</li>
-<li><strong>Chat suggestions</strong> — Get next-message suggestions without interrupting your draft.</li>
-<li><strong>Shared Notes</strong> — Create and organize Markdown notes in a full-page editor and cross-project library.</li>
-<li><strong>Compact updates</strong> — Download updates from one icon in the bottom navigation rail, then restart Hive now or later.</li>
-</ul>
-<h3>Features</h3>
-<ul>
-<li>Unify window navigation and contextual sidebars.</li>
-<li>Confirm local changes before moving threads.</li>
-<li>Safely copy local changes before thread moves.</li>
-<li>Stop transcribe and send recordings in one click.</li>
-<li>Show measured dictation waveform and pending states.</li>
-<li>Publish measured dictation waveform levels.</li>
-</ul>
-<h3>Improvements</h3>
-<ul>
-<li>Resolve activity store ownership once per pass.</li>
-<li>Replace process probes with scoped activity recovery.</li>
-<li>Preserve the runtime provider across presentation changes.</li>
-<li>Reuse discovery for live chat reconnects.</li>
-<li>Reuse recent conversations when switching threads.</li>
-<li>Bound navigation updates to affected rows.</li>
-</ul>
+<h2>What&#x27;s New in 4.9.1</h2>
 <h3>Bug Fixes</h3>
 <ul>
-<li>Close provider menu after selection.</li>
-<li>Load workflow models when opening the editor.</li>
-<li>Anchor workflow model picker suggestions.</li>
-<li>Prevent recursive native shortcut dispatch.</li>
-<li>Render unread dots at a whole-pixel size.</li>
-<li>Add discoverable new chat action.</li>
+<li>Suppress unread indicators for empty threads.</li>
+<li>Reset existing destinations to the built-in default.</li>
+<li>Surface workspace activity and unread status.</li>
+<li>Preserve activity across socket reconnects.</li>
+<li>Report program activity and unseen output.</li>
+<li>Preserve running indicators during navigation.</li>
 </ul>
-<p class="more">Full release notes: <a href="https://github.com/Ajanth/hive-public/releases/tag/v4.9">https://github.com/Ajanth/hive-public/releases/tag/v4.9</a></p>
+<p class="more">Full release notes: <a href="https://github.com/Ajanth/hive-public/releases/tag/v4.9.1">https://github.com/Ajanth/hive-public/releases/tag/v4.9.1</a></p>
 </div>
             ]]></description>
-            <sparkle:version>63</sparkle:version>
-            <sparkle:shortVersionString>4.9</sparkle:shortVersionString>
+            <sparkle:version>64</sparkle:version>
+            <sparkle:shortVersionString>4.9.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/Ajanth/hive-public/releases/download/v4.9/Hive-4.9.dmg" length="33554376" type="application/octet-stream" sparkle:edSignature="RQ1+TajbWIhsKM5ZMFABraonStScEcBt+97/aI+bOY9SawJD1NGCUBaIKF0rDJ4towBfnivtInoTP5d0qI4lDQ=="/>
+            <enclosure url="https://github.com/Ajanth/hive-public/releases/download/v4.9.1/Hive-4.9.1.dmg" length="34549297" type="application/octet-stream" sparkle:edSignature="FEbxOOnqb1/or1Pl6L/Kp42a/o4nHQelU2LuEoDF+z1GMDf3Z/rtw9kStljEXTYBFVR4uUmI0z8iHx2y91AuBw=="/>
         </item>
     </channel>
 </rss>
