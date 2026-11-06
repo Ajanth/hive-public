@@ -3,8 +3,8 @@
     <channel>
         <title>Hive</title>
         <item>
-            <title>4.9.1</title>
-            <pubDate>Wed, 04 Nov 2026 01:40:15 +0100</pubDate>
+            <title>4.10</title>
+            <pubDate>Fri, 06 Nov 2026 08:54:19 +0100</pubDate>
             <description><![CDATA[
 <style>
 .rn { font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, sans-serif; font-size: 13px; line-height: 1.55; color: #1d1d1f; -webkit-font-smoothing: antialiased; padding: 2px; }
@@ -27,23 +27,29 @@
 }
 </style>
 <div class="rn">
-<h2>What&#x27;s New in 4.9.1</h2>
+<h2>What&#x27;s New in 4.10</h2>
+<h3>Features</h3>
+<ul>
+<li>Expand console while reserving Now column.</li>
+<li>Add persistent card visibility and responsive columns.</li>
+<li>Recall sent prompts with Up and Down.</li>
+</ul>
 <h3>Bug Fixes</h3>
 <ul>
-<li>Suppress unread indicators for empty threads.</li>
-<li>Reset existing destinations to the built-in default.</li>
-<li>Surface workspace activity and unread status.</li>
-<li>Preserve activity across socket reconnects.</li>
-<li>Report program activity and unseen output.</li>
-<li>Preserve running indicators during navigation.</li>
+<li>Allow task-owned checkouts for new chats.</li>
+<li>Apply app appearance to native window chrome.</li>
+<li>Preserve newer outcomes after late Stop failures.</li>
+<li>Refresh physical checkout identity before selection.</li>
+<li>Show readable activity times in results.</li>
+<li>Retain queued draft ownership through settlement.</li>
 </ul>
-<p class="more">Full release notes: <a href="https://github.com/Ajanth/hive-public/releases/tag/v4.9.1">https://github.com/Ajanth/hive-public/releases/tag/v4.9.1</a></p>
+<p class="more">Full release notes: <a href="https://github.com/Ajanth/hive-public/releases/tag/v4.10">https://github.com/Ajanth/hive-public/releases/tag/v4.10</a></p>
 </div>
             ]]></description>
-            <sparkle:version>64</sparkle:version>
-            <sparkle:shortVersionString>4.9.1</sparkle:shortVersionString>
+            <sparkle:version>65</sparkle:version>
+            <sparkle:shortVersionString>4.10</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/Ajanth/hive-public/releases/download/v4.9.1/Hive-4.9.1.dmg" length="34549297" type="application/octet-stream" sparkle:edSignature="FEbxOOnqb1/or1Pl6L/Kp42a/o4nHQelU2LuEoDF+z1GMDf3Z/rtw9kStljEXTYBFVR4uUmI0z8iHx2y91AuBw=="/>
+            <enclosure url="https://github.com/Ajanth/hive-public/releases/download/v4.10/Hive-4.10.dmg" length="33604954" type="application/octet-stream" sparkle:edSignature="1+Ni5o8vZo2uYkYkEVKeC2Z97doDDxNYDkhfWXcE3y6r9BOMER6++6FJqu2A+UsA5G3qlttYM+4WDYeGxAijAQ=="/>
         </item>
     </channel>
 </rss>
