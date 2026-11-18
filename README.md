@@ -16,7 +16,11 @@ Day-to-day development happens in a private repository. This public repository h
 
 ## Security & Privacy
 
-Hive keeps session data on your Mac and does not include telemetry, analytics, or remote logging. Network access is limited to documented, user-visible features such as signed update checks and actions the user explicitly initiates.
+Hive stores thread history on the computer running your Hive environment. Paired devices can access that environment. When you connect Linear, Hive contacts Linear to read the workspace data you request. You can grant write access separately to edit issues or post comments.
+
+Starting work on an issue creates an editable draft with its title, link, and available description. Sending the draft shares its contents with your coding agent and its configured model provider. Provider data controls depend on your account and configuration. Disconnecting Linear leaves previously saved links and messages in place.
+
+External usage reporting is off by default. If you enable diagnostics export, Hive sends the configured signals to the receiver you select. See the [Hive Privacy Notice](https://openhive.pages.dev/privacy) for data handling and deletion options, and the [Hive Terms of Use](https://openhive.pages.dev/terms) for the website and services.
 
 To report a security issue privately, email `ajanth2newearth@gmail.com`.
 
