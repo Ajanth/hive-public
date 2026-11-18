@@ -3,6 +3,14 @@
     <channel>
         <title>Hive</title>
         <item>
+          <title>Hive 5.0.0</title>
+          <description>Hive has moved to a new desktop app. Start with a fresh workspace. Your previous Hive data stays on disk.</description>
+          <sparkle:version>66</sparkle:version>
+          <sparkle:shortVersionString>5.0.0</sparkle:shortVersionString>
+          <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+          <enclosure url="https://github.com/Ajanth/hive-public/releases/download/v5.0.0/Hive-5.0.0-universal.dmg" length="263002013" type="application/octet-stream" sparkle:edSignature="yWR34QJQsyMfzRN//b3hjDxN7SAk5s5NEmf0bVj2m9MS349RAQdDKGYP/cyA6XAAyaHo6f5ffuUgWflF6H+VAA=="/>
+        </item>
+        <item>
             <title>4.10</title>
             <pubDate>Fri, 06 Nov 2026 08:54:19 +0100</pubDate>
             <description><![CDATA[
